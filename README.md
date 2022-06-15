@@ -10,7 +10,7 @@ A fast and stable module that provides information about country's current situa
 const must_covid = require("must-covid")
 
 async function output() {
-    let country = await must_covid.country("Turkey")
+    let country = await must_covid.country("Afghanistan")
     console.log(country)
 }
 output()
